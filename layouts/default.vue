@@ -4,13 +4,16 @@
         app
         extended
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon title="menu"
+                          aria-label="menu"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Application</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
+      <v-btn title="menu-right"
+             aria-label="menu-right"
+             icon>
         <v-icon>mdi-dots-vertical</v-icon>
       </v-btn>
     </v-app-bar>
