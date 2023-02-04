@@ -1,11 +1,12 @@
+// Vuetify Dependency
 import vuetify from "vite-plugin-vuetify";
 
 // PWA Config
 const title = "Vue 3 PWA - Vuetify 3 + Nuxt 3";
 const shortTitle = "Start project Template";
 const description = "Template to get you up and running with Nuxt 3 & Vuetify 3";
-const image = "@/assets/images/nuxt_icon.png";
-const url = "https://vuetify3nuxt3starter.behonbaker.com/";
+const image = "https://raw.githubusercontent.com/arturmedeiros/vue-pwa-nuxt-vuetify-3/master/public/nuxt-icon.png";
+const url = "https://vue-pwa-nuxt-vuetify-3.pages.dev/";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
