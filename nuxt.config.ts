@@ -35,7 +35,7 @@ export default defineNuxtConfig({
         },
         download: false,
         useStylesheet: true,
-        preload: true,
+        // preload: true,
     },
     app: {
         head: {
