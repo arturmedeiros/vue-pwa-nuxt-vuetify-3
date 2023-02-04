@@ -38,7 +38,6 @@ export default defineNuxtConfig({
         useStylesheet: true
     },
     app: {
-
         head: {
             title: "Vuetify 3 + Nuxt 3 + Vue 3",
             titleTemplate: "%s | Vuetify 3 + Nuxt 3 + Vue 3",
@@ -130,20 +129,21 @@ export default defineNuxtConfig({
 
     },
     modules: [
-        "nuxt-icon",
+        "@nuxt/image-edge",
         "@nuxtjs/google-fonts",
         "@nuxtjs/web-vitals",
         "@vite-pwa/nuxt",
+        "nuxt-icon",
         // Vuetify Implementation
         async (options, nuxt) => {
-            nuxt.hooks.hook('vite:extendConfig', (config) =>
+            nuxt.hooks.hook("vite:extendConfig", (config) =>
                 // @ts-ignore
                 config.plugins.push(vuetify())
             )
         }
     ],
     webVitals: {
-        provider: 'log',
+        provider: "log",
         debug: true, // debug enable metrics reporting on dev environments
         disabled: false
     },

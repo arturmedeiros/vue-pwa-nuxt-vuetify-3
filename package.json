@@ -9,6 +9,8 @@
   },
   "devDependencies": {
     "@mdi/font": "^7.1.96",
+    "@nuxt/image-edge": "^1.0.0-27919678.2f5b64b",
+    "@nuxt/types": "^2.16.0",
     "@nuxt/ui": "^0.4.1",
     "@nuxtjs/google-fonts": "^3.0.0-1",
     "@nuxtjs/pwa": "^3.3.5",
