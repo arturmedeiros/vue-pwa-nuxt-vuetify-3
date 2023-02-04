@@ -1,7 +1,8 @@
 @use "vuetify/settings";
 
 @font-face {
-  font-display: swap;
+  font-display: optional !important;
+  //font-display: swap;
 }
 
 // Override the textfield's radius

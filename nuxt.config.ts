@@ -14,7 +14,6 @@ export default defineNuxtConfig({
         "vuetify/styles",
         "@mdi/font/css/materialdesignicons.min.css",
         "@/assets/main.scss"
-        // "@/assets/main.scss"
     ],
     typescript: {
         shim: false
