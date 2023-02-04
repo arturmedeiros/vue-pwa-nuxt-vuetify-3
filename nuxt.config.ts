@@ -134,6 +134,7 @@ export default defineNuxtConfig({
         "@nuxtjs/google-fonts",
         "@nuxtjs/web-vitals",
         "@vite-pwa/nuxt",
+        // Vuetify Implementation
         async (options, nuxt) => {
             nuxt.hooks.hook('vite:extendConfig', (config) =>
                 // @ts-ignore
