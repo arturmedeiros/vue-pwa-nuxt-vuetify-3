@@ -132,7 +132,7 @@ export default defineNuxtConfig({
     modules: [
         "nuxt-icon",
         "@nuxtjs/google-fonts",
-        // "@kevinmarrec/nuxt-pwa",
+        "@nuxtjs/web-vitals",
         "@vite-pwa/nuxt",
         async (options, nuxt) => {
             nuxt.hooks.hook('vite:extendConfig', (config) =>
@@ -141,6 +141,11 @@ export default defineNuxtConfig({
             )
         }
     ],
+    webVitals: {
+        provider: 'log',
+        debug: true, // debug enable metrics reporting on dev environments
+        disabled: false
+    },
     pwa: {
         /* PWA options */
         manifest: {
