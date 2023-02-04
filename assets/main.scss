@@ -1,5 +1,9 @@
 @use "vuetify/settings";
 
+@font-face {
+  font-display: swap;
+}
+
 // Override the textfield's radius
 .v-text-field {
   .v-field__outline__start {
@@ -91,7 +95,7 @@
 *,
 html,
 body {
-  font-family: "Jost" !important;
+  font-family: "Jost", sans-serif !important;
   //font-family: "Inter" !important;
   -webkit-font-smoothing: antialiased !important;
 }
