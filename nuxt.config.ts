@@ -12,7 +12,7 @@ const url = "https://vue-pwa-nuxt-vuetify-3.pages.dev/";
 export default defineNuxtConfig({
     css: [
         "vuetify/styles",
-        '@mdi/font/css/materialdesignicons.min.css',
+        "@mdi/font/css/materialdesignicons.min.css",
         "@/assets/main.scss"
         // "@/assets/main.scss"
     ],
@@ -35,7 +35,8 @@ export default defineNuxtConfig({
             Jost: [100, 200, 300, 400, 500, 600, 700, 800, 900]
         },
         download: false,
-        useStylesheet: true
+        useStylesheet: true,
+        preload: true,
     },
     app: {
         head: {

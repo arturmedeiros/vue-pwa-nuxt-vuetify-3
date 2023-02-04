@@ -5,6 +5,7 @@
         extended
     >
       <v-app-bar-nav-icon title="menu"
+
                           aria-label="menu"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Application</v-toolbar-title>
