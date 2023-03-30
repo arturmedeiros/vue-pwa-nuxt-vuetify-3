@@ -22,6 +22,7 @@
     <v-main>
       <v-container>
         <slot />
+        {{response}}
 <!--        <v-row>
           <v-col
               v-for="n in 24"
@@ -35,3 +36,8 @@
     </v-main>
   </v-app>
 </template>
+
+<script setup>
+
+const {data: response} = await useFetch(`https://api.biolinkys.com/api/public/link/arjos`)
+</script>
